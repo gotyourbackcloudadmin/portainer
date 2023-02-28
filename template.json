@@ -116,22 +116,7 @@
     ],
     "restart_policy": "unless-stopped"
 },
-    {
-      "categories": ["Code Server"],
-      "description": "Codiad is a web-based IDE framework with a small footprint and minimal requirements.",
-      "env": [
-        {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "default": "100",
-          "label": "PGID",
-          "name": "PGID"
-        }
-      ],
-		 {
+{
     "categories": ["Chat Server"],
     "description": "Rocket.Chat Server",
     "logo": "https://raw.githubusercontent.com/portapps/rocketchat-portable/master/res/papp.png",

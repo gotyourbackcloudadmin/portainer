@@ -170,25 +170,6 @@
       ]
     },
     {
-      "categories": ["Management Utility Server"],
-      "description": "A clientless remote desktop gateway.",
-      "image": "oznu/guacamole:latest",
-      "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/guacamole.png",
-      "name": "guacamole",
-      "note": "The default login will be guacadmin/guacadmin. It is common practice to add a new admin user and remove the default user for Guacamole.",
-      "platform": "linux",
-      "ports": ["8080:8080/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "Guacamole",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/Guacamole",
-          "container": "/config"
-        }
-      ]
-    },
-    {
       "type": 1,
       "title": "Registry (cache)",
       "description": "Docker image registry configured as a DockerHub pull through cache",
